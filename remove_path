@@ -1,0 +1,4 @@
+#!/bin/bash
+for i in $(ls *.c); do sed -i.bak 's/\/home\/owner\/euphoria\/include\///g' $i;done
+sed -i.bak 's/\/home\/owner\/euphoria\/bin/..\/bin/g' emake
+
